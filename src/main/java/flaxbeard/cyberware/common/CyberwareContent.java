@@ -359,7 +359,7 @@ public class CyberwareContent
 
         skinUpgrades = new ItemSkinUpgrade("skin_upgrades", EnumSlot.SKIN,
                 new String[] { "solar_skin", "subdermal_spikes", "fake_skin", "immuno"});
-        skinUpgrades.setEssenceCost(12, 12, 0, -25);
+        skinUpgrades.setEssenceCost(12, 12, 0, -900);
         skinUpgrades.setWeights(VERY_COMMON, UNCOMMON, UNCOMMON, RARE);
         skinUpgrades.setComponents(
                 NNLUtil.fromArray(new ItemStack[] { new ItemStack(component, 1, 1),
